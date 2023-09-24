@@ -11,10 +11,10 @@ docker run --name jenkins -v /var/run/docker.sock:/var/run/docker.sock --privile
 On Windows:
 docker run --name jenkins -v //var/run/docker.sock:/var/run/docker.sock  --privileged --user root -p 50000:50000 -p 8080:8080 -d jenkins:lts-docker
 
-##Step - 03
+## Step - 03
 Open up localhost:8080/ and you will be asked to login into jenkins using admin password which can be found by typing this into your cmd or terminal.
 docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
-##Step - 04
+## Step - 04
 Install suggested plugins and create your admin credentials when asked.
 
