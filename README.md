@@ -18,3 +18,14 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 ## Step - 04
 Install suggested plugins and create your admin credentials when asked.
 
+## Step - 05
+Go to available plugins and install "Generic webhook trigger" and restart jenkins.
+
+## Step - 06
+Now create a new webhook trigger for your private github repository.
+
+## Step - 07
+Specify the webhook trigger in the generic webhook trigger.
+
+## Step - 08
+Write steps for your pipeline in scriptive or declarative syntax as you like.( If its simple use declarative otherwise go for scriptive syntax ).
